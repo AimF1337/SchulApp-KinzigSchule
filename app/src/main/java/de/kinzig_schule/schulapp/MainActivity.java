@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (ReadPrefs(sharedprefs)) {
             Intent intent = new Intent(MainActivity.this, Menu.class);
+            startActivity(intent);
         }
 
         Button button = (Button) findViewById(R.id.btn_login);
