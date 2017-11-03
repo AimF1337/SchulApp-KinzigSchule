@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, Menu.class);
                     startActivity(intent);
                 }
-                else {
+                else { 
                     int duration = Toast.LENGTH_SHORT;
                     CharSequence text = "Falsches Passwort";
                     Toast.makeText(MainActivity.this,text,duration).show();
